@@ -32,7 +32,7 @@ namespace OwnVst3SampleApp
                     Console.WriteLine("VST3 wrapper successfully initialized.");
 
                     // Load a VST3 plugin - replace the path with your VST3 plugin path
-                    string pluginPath = @"C:\Program Files\Common Files\VST3\TDR Nova.vst3";
+                    string pluginPath = @"C:\VST3 PLugin\vstplugin.vst3";
                     Console.WriteLine($"Loading VST3 plugin: {pluginPath}");
 
                     if (vst.LoadPlugin(pluginPath))
