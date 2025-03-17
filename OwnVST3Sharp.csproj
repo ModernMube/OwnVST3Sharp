@@ -12,6 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="OwnVST3Host\OwnVST3Host.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Library\ownvst3.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

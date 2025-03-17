@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>  
+
+	<!-- NuGet csomagolási információk -->
+	<PackageId>OwnVst3Host</PackageId>
+	<Version>1.0.2</Version>
+	<Authors>Modern Mube</Authors>
+	<Company>Modern Musician</Company>
+	<Description>C# wrapper for the OwnVst3 native library to work with VST3 plugins</Description>
+	<PackageTags>vst;vst3;audio;plugin;wrapper</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/ModernMube/OwnVST3Sharp</RepositoryUrl>
+	<PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+		<None Include="icon.png" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	
+</Project>

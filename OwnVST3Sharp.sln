@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnVST3Sharp", "OwnVST3Sharp.csproj", "{17FA2F9D-5628-4EF2-80DE-E70AD1BF7082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnVST3Host", "OwnVST3Host\OwnVST3Host.csproj", "{E29FA493-6A4D-86EA-808A-2C0E01F3373D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{17FA2F9D-5628-4EF2-80DE-E70AD1BF7082}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17FA2F9D-5628-4EF2-80DE-E70AD1BF7082}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17FA2F9D-5628-4EF2-80DE-E70AD1BF7082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E29FA493-6A4D-86EA-808A-2C0E01F3373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29FA493-6A4D-86EA-808A-2C0E01F3373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29FA493-6A4D-86EA-808A-2C0E01F3373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29FA493-6A4D-86EA-808A-2C0E01F3373D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

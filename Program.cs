@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.InteropServices;
-using OwnVst3Sharp;
+using OwnVST3Host;
 
 namespace OwnVst3SampleApp
 {
